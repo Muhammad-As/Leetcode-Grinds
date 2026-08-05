@@ -18,8 +18,6 @@ class Solution(object):
             i += 1
 
         num *= sign
-
-        # Step 4: Clamp to 32-bit signed integer range
         INT_MIN = -2**31
         INT_MAX = 2**31 - 1
 
